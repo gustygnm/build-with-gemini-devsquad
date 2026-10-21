@@ -1,0 +1,30 @@
+# Authoring notes, not participant-facing
+context.md
+
+# macOS noise
+.DS_Store
+
+# Python & environments
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Accidental credentials / secrets
+.env
+*.env
+application_default_credentials.json
+*-sa-key.json
+service-account*.json
+
+# record-demo artifacts (Playwright install + temp recording dir)
+node_modules/
+package-lock.json
+.video_tmp/
+
+# Keep the demo GIF (README embeds it); ignore the large raw recording.
+*.webm
+
